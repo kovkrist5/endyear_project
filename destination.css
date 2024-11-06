@@ -1,0 +1,14 @@
+body {
+    background-color:#2B4141 ;
+    color:bisque;
+    text-align: center;
+}
+header {
+    padding: 10px;
+}
+section {
+    margin: 20px;
+    background-color: #6a807a ;
+    border-radius: 5%;
+    padding: 20px;
+}

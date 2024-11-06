@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Recipes</title>
+</head>
+<body>
+    <div class="FUCK-THIS">
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#Login" onclick="location.href='LoginPart.html'">Login</a>
+    <a href="#Filter" onclick="location.href='Filter.html'">Filtering</a>
+    <a href="#aboutUs" onclick="location.href= 'aboutUs.html'">About Us!</a>
+    <a href="#Contact" onclick="location.href='Contact.html'">Contact</a>
+  </div>
+  </div>
+    <header>
+    
+        <div class="FUCK-THIS">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+        <h1>Puppy's website of recipes! ^_^</h1>
+        <p>We hope you can find what you're looking for.</p>
+        <div id="search">
+        <input type="text" placeholder="Search.." name="search-input">
+        <button type="submit" class="search-button">search</button>
+        </div>
+        
+
+    </header>
+    <section>
+        <p>.</p>
+       
+    </section>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        
+        </script>
+       
+       <section class="section1">
+        <p>.</p>
+        <h2>Find popular recipes here:</h2>
+        <div class="flex-container">
+            <div>Chocolate Cake
+                <img src="Chocolate-Cake-R-Blog-1.jpg" alt="">
+                <p>Ingredients
+                    2 cups
+                    All-Purpose Flour  (240g)
+                    2 cups
+                    Granulated Sugar  (400g)
+                    ½ cup
+                    Unsweetened Cocoa Powder  (50g)
+                    1 ½ teaspoons
+                    Baking Powder
+                    1 ½ teaspoons
+                    Baking Soda...
+                    </p>
+                <button id="myButton1" onclick="location.href='destination.html'">See more!</button>
+            </div>
+            <div>Chicken Carbonara Pasta Bake
+                <img src="yumyummms.png" alt="">
+                <p>Ingredients: 
+                    <br>
+                    10 ounces diced pancetta
+                    16 ounces spaghetti
+                    4 large egg yolks
+                    2 cups grated parmesan cheese
+                    1 cup heavy cream...
+                </p>
+                <button id="myButton2" onclick="location.href='destination2.html'">See more!</button>
+            </div>
+            <div>Leftover Turkey Tetrazzini
+                <img src="yimm.png" alt="">
+                <p>1 (16 ounce) package uncooked spaghetti
+                    ½ cup butter
+                    ½ cup all-purpose flour
+                    3 cups chicken broth
+                    2 cups milk
+                    1 ⅔ cups grated Parmesan cheese
+                    4 cups chopped cooked turk...</p>
+                
+                <button id="myButton2" onclick="location.href='destination3.html'">See more!</button>
+            </div>
+        </div>
+        <script>
+            document.getElementById("myButton1").onclick = function () {
+    window.location.href = "destination.html";
+
+    };
+        </script>
+       </section>
+</body>
+</html>

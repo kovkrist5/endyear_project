@@ -1,0 +1,121 @@
+body {
+    margin: 20px;
+    font-family: "Lato", sans-serif;
+    background-color:#2B4141;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #1A2727;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.FUCK-THIS {
+    text-align: right;
+}
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+    .content {
+        margin-right: 0;
+    }
+}
+
+.section1 {
+    padding: 20px;
+    margin-right: 5px;
+    background-color: #94B9AF;
+    border-radius: 5px;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+    background-color: #94B9AF;
+    border-radius: 10px;
+    size: 70px;
+    justify-content: space-around;
+    
+  }
+  .flex-container > img {
+    width: 100px;
+    height: auto;
+  }
+  .flex-container > p {
+    size: 5px;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding: 60px;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 400;
+    height: 300;
+    justify-content: space-around;
+    
+  }
+
+.section1 > h2 {
+    margin: 10px;
+}
+button {
+    background-color: #aa0404;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+header{ 
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #5E0B15 ;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    
+}
+
+.search-button {
+    size: 5px;
+}
